@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDenseOutlinedSmall" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/CustomThemeOverlayOutlinedDenseSmall</item>
+        <item name="helperTextTextColor">#000000</item>
+    </style>
+
+    <style name="CustomThemeOverlayOutlinedDenseSmall">
+        <item name="editTextStyle">@style/CustomTextInputEditText_outlinedBox_dense_hSmall
+        </item>
+    </style>
+
+    <style name="CustomTextInputEditText_outlinedBox_dense_hSmall" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:paddingBottom">9dp</item>
+    </style>
+
+    <style name="CustomDenseOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/CustomThemeOverlayOutlinedDense</item>
+        <item name="helperTextTextColor">#000000</item>
+    </style>
+
+    <style name="CustomThemeOverlayOutlinedDense">
+        <item name="editTextStyle">@style/CustomTextInputEditText_outlinedBox_dense_h
+        </item>
+    </style>
+
+    <style name="CustomTextInputEditText_outlinedBox_dense_h" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+</resources>
